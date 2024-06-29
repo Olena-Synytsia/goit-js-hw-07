@@ -19,7 +19,5 @@ function handleSubmit(event) {
     password: inputPassword,
   };
 
-  console.log(formObj);
-
   form.reset();
 }

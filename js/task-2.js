@@ -39,5 +39,3 @@ function createGallaryImg(images) {
 
 const createGallary = createGallaryImg(images);
 galleryElements.insertAdjacentHTML("beforeend", createGallary);
-
-console.log(galleryElements);
