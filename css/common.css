@@ -47,8 +47,7 @@ li {
   left: -1308px;
   padding: 24px 0px 0px 0px;
   gap: 24px;
-  border-radius: 8px 0px 0px 0px;
-  opacity: 0px;
+  border-radius: 8px;
   list-style: none;
   background-color: #ffffff;
 }
@@ -61,7 +60,7 @@ li {
 }
 
 .categories-elem li {
-  border: 1px solid #575758;
+  border: 1px solid #808080;
   padding: 8px 16px;
   border-radius: 5px;
 }
@@ -71,8 +70,7 @@ li {
   height: auto;
   padding: 16px 0px 0px 0px;
   gap: 16px;
-  border-radius: 8px 0px 0px 0px;
-  opacity: 0px;
+  border-radius: 8px;
   background-color: #f6f6fe;
   padding-top: 0;
 }
@@ -106,7 +104,7 @@ li {
 #name-input {
   width: 360px;
   height: 40px;
-  border: 1px solid #575758;
+  border: 1px solid #808080;
   padding: 8px 16px;
   border-radius: 5px;
   font-family: Montserrat;
@@ -127,8 +125,6 @@ h1 {
   text-align: left;
   width: 248px;
   height: 32px;
-  gap: 0px;
-  opacity: 0px;
   color: #2e2f42;
   margin: 0 24px 24px 24px;
 }
@@ -139,7 +135,7 @@ h1 {
   width: 408px;
   padding: 24px;
   gap: 8px;
-  border-radius: 8px 0px 0px 0px;
+  border-radius: 8px;
 }
 
 label {
@@ -156,7 +152,7 @@ label {
 }
 
 input {
-  border: 1px solid #575758;
+  border: 1px solid #808080;
   width: 100%;
   height: 40px;
   border-radius: 5px;
@@ -210,12 +206,44 @@ p {
   height: 40px;
   padding: 8px 16px 8px 16px;
   gap: 10px;
-  opacity: 0px;
   align-items: center;
 }
 
-/* .change-color: hover;
-.change-color: :focus {
-  background-color: #6c8cff;
+#controls {
+  display: block;
+  padding: 24px 24px 16px 24px;
+  width: 486px;
+  border-radius: 8px;
+}
+
+#controls input {
+  width: 150px;
+  height: 40px;
+  padding: 8px 72px 8px 72px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  opacity: 0px;
+  margin-right: 16px;
+}
+#controls button {
+  width: 120px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  margin-top: 0;
+}
+
+.btn-create {
+  margin-right: 16px;
+}
+
+.btn-destroy {
+  background-color: #ff4e4e;
+}
+
+.btn-destroy:hover,
+.btn-destroy:focus {
+  background-color: #ff7070;
   transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
