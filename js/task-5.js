@@ -5,26 +5,11 @@ function getRandomHexColor() {
 }
 
 const changeColor = document.querySelector(".change-color");
-const bodyColor = document.querySelector("body");
-console.log(changeColor);
-console.log(bodyColor);
+const bodyColor = document.querySelector("span.color");
 
-changeColor.addEventListener("click", getRandomHexColor);
-
-const colors = [
-  "black",
-  "green",
-  "mint",
-  "olive",
-  "yellow",
-  "blue",
-  "pink",
-  "grey",
-  "purple",
-  "violet",
-  "orange",
-  "ultramarine",
-  "lavender",
-  "saffron",
-  "tangerine ",
-];
+changeColor.addEventListener("click", function () {
+  const randomColor = getRandomHexColor();
+  document.body.style.backgroundColor = randomColor;
+  bodyColor.textContent = randomColor;
+  colorSpan.style.color = randomColor;
+});
