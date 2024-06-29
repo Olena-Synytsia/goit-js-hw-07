@@ -132,3 +132,19 @@ h1 {
   color: #2e2f42;
   margin: 0 24px 24px 24px;
 }
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  height: 256px;
+  top: -679px;
+  left: 1208px;
+  padding: 24px;
+  gap: 16px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.login-form lable {
+}
